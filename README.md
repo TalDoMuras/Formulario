@@ -1,6 +1,6 @@
 # Arquivo README informando dados do projeto
 
-Projeto realizado com a proposta de aprofundar os conhecimentos de desenvolvimento web, com funções da validação dos campos de texto somente com JavaScript. 
+Projeto realizado com a proposta de aprofundar os conhecimentos de desenvolvimento web, com funções de validação dos campos de texto somente com JavaScript. 
 
 ## Imagens do projeto
 
