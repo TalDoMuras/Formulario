@@ -2,7 +2,7 @@
 
 Projeto realizado com a proposta de aprofundar os conhecimentos de desenvolvimento web, com funções de validação dos campos de texto somente com JavaScript. 
 
-## Imagens do projeto
+## Imagem do projeto
 
 <img src="./Design/pagina.png" alt="Imagem do projeto no desktop">
 
