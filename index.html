@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficou com dúvida?</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+
+    
+    <main class="main-container">
+        <img src="./src/img/bg-repeat.jpg" id="bg-img">
+        <section class="sobre">
+            <div class="box">
+                <h2>FICOU COM DÚVIDA?</h2>
+                <h2>NOS MANDE UMA MENSAGEM!</h2>
+
+                <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos
+                    de
+                    24h.</p>
+            </div>
+        </section>
+
+        <section class="formulario">
+            <form method="post" >
+
+                <div class="box-input">
+                    <input type="text" class="campo nome" placeholder="Nome completo *" onblur="verificarNome()">
+                    <span class="erroNome erro"></span>
+                </div>
+
+                <div class="box-input">
+                    <input type="text" class="campo email" placeholder="Email *" onblur="verificarEmail()">
+                    <span class="erroEmail erro"></span>
+                </div>
+
+                <div class="box-input">
+                    <input type="text" class="campo telefone" placeholder="Telefone *" onblur="verificarTelefone()" >
+                    <span class="erroTelefone erro"></span>
+                </div>
+
+                <div class="box-input">
+                    <textarea class="campo mensagem" id="mensagem" placeholder="Mensagem *" onblur="verificarMensagem()"></textarea>
+                    <span class="erroMensagem erro"></span>
+                </div>
+                
+
+                <span>*Campos obrigatórios</span>
+                <input type="submit" value="Enviar" id="botao">
+            </form>
+        </section>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
